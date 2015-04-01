@@ -1,0 +1,43 @@
+/*Swap the box model, moves width calculation from content to border*/
+*{
+	box-sizing: border-box;
+}
+
+.box-model{
+	margin: 20px;
+	padding: 20px;
+	background-color: red;
+	border:5px solid black;
+	width:200px;
+}
+
+/*position*/
+.outer-container{
+
+	margin: 20px;
+	padding: 20px;
+	background-color: red;
+	position: relative;
+}
+
+.inner-container{
+
+	margin: 20px;
+	padding: 20px;
+	background-color: green;
+}
+
+.inner-content{
+
+	margin: 20px;
+	padding: 20px;
+	background-color: grey;
+	
+}
+
+.display-content{
+
+	
+}
+
+
